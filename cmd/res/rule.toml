@@ -1,0 +1,7 @@
+Enable = false
+Device = "SimulationServer"
+Parameter = "ns=5;s=Counter1"
+Operation = "<"
+Operand = "15"
+Type = "int"
+FilterResult = false

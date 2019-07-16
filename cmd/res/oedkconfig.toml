@@ -1,0 +1,18 @@
+[Broker]
+  Address = "ubuntu"
+  Port = 1883
+  Protocol = "tcp"
+  Publisher = ""
+  User = ""
+  Password = ""
+
+[Oedk]
+  Protocol = "OPCUA"
+  IsInitialized = true
+  InitJson = "{\"header\":{\"version\":\"0.1\",\"generationTimeServer\":\"2019-07-09T14:14:25Z\"},\"device\":{\"serialNumber\":\"ZTY001\",\"deviceType\":\"NANO\",\"networkInterfaces\":[{\"name\":\"WebInterface\",\"DHCP\":{\"enabled\":true},\"static\":{}},{\"name\":\"ProductionInterface\",\"DHCP\":{\"enabled\":true},\"static\":{}}],\"deviceIdentifier\":\"ea1dafbe-7c96-4519-b2f1-e48866c30770\"},\"agent\":{\"name\":\"6d04963e562b48a7997939b704ad4dd2\",\"proxy\":{\"proxyType\":\"\",\"host\":\"\",\"protocol\":\"HTTP\",\"authenticationType\":\"BASIC\",\"user\":\"\",\"password\":\"\"},\"agentId\":\"6d04963e562b48a7997939b704ad4dd2\",\"security\":{\"iat\":\"eyJraWQiOiJrZXktaWQtMSIsInR5cCI6IkpXVCIsImFsZyI6IlJTMjU2In0.eyJpc3MiOiJTQ0kiLCJzdWIiOiI2ZDA0OTYzZTU2MmI0OGE3OTk3OTM5YjcwNGFkNGRkMiIsImF1ZCI6IkFJQU0iLCJpYXQiOjE1NjI2ODE2MzksIm5iZiI6MTU2MjY4MTYzOSwiZXhwIjoxNTYzMjg2NDM5LCJqdGkiOiI0OWFhNTU4Ni05M2FmLTQ1NTUtOTQzNS0zM2Q5ZTY1NDlhODciLCJzY29wZSI6IklBVCIsInRlbiI6ImN0aW90Y24iLCJ0ZW5fY3R4IjoibWFpbi10ZW5hbnQiLCJjbGllbnRfY3JlZGVudGlhbHNfcHJvZmlsZSI6WyJSU0FfMzA3MiJdLCJzY2hlbWFzIjpbInVybjpzaWVtZW5zOm1pbmRzcGhlcmU6djEiXX0.XBzoal4a5szHzPc7_fhPgFvwRs3OI27luuRsD24K-1h1zlFjlxcOlSRymPfslE0_tOb3Eg2RnsM_kUfVeVhgDD7omqxjdeljGuvOHVZ0QiRtLMXgGCDjvhVYP6rKSeTQcnp2XrD16ZRdec5MD_VnkpIgBcNK7sRZl0T2HfETUvfwvRtUWy4FJiOT6fPPkR5AtSBZH09lEsIvboB9RawsoaQqUSSEK34H2K45f2y0bPurZ6955dSyiVkwvP6vTngtCyndzQUsFPSp9BXTVW2rDHCeTwpoxYtf6T0HYiynEAFMsIr8qHpy4COAf67YW3C2Mn7jm66ssr5bubPkTXHqwQ\",\"baseUrl\":\"https://southgate.eu1.mindsphere.io\",\"clientCredentialProfile\":[\"RSA_3072\"],\"tenant\":\"ctiotcn\",\"clientId\":\"6d04963e562b48a7997939b704ad4dd2\"}}}"
+
+[DataSource]
+  Id = "Server1_f15e9876-701"
+
+  [[DataSource.DataPoint]]
+    Id = "e8535364539a4"
